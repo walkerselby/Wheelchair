@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "wheelchair",
   "name": "Wheelchair",
-  "description": "Walkers Utilities for Minecraft",
+  "description": "Walker's Development Utilities for Minecraft",
   "version": "1.0.0",
   "authors": [
-    "Walkers"
+    "Walker Selby (whalker)"
   ],
   "entrypoints": {
     "client": ["com.walkerselby.wheelchair.client.Wheelchair"]
