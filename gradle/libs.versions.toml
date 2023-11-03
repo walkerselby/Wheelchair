@@ -1,0 +1,19 @@
+[versions]
+minecraft = "1.20.2"
+yarn = "1.20.2+build.1"
+kotlin = "1.9.10"
+fabric_api = "0.90.7+1.20.2"
+fabric_kotlin = "1.10.10+kotlin.1.9.10"
+fabric_loader = "0.14.22"
+
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+fabric_kotlin = { module = "net.fabricmc:fabric-language-kotlin", version.ref = "fabric_kotlin" }
+fabric_api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric_api" }
+fabric_loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric_loader" }
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
+

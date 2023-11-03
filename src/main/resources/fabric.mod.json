@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "wheelchair",
+  "name": "Wheelchair",
+  "description": "Walkers Utilities for Minecraft",
+  "version": "1.0.0",
+  "authors": [
+    "Walkers"
+  ],
+  "entrypoints": {
+    "client": ["com.walkerselby.wheelchair.client.Wheelchair"]
+  }
+}
