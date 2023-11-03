@@ -23,4 +23,4 @@ pluginManagement {
 }
 
 
-rootProject.name = "wheelchair"
+rootProject.name = "Wheelchair"
