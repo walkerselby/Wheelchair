@@ -8,6 +8,8 @@
     "Walker Selby (whalker)"
   ],
   "entrypoints": {
-    "client": ["com.walkerselby.wheelchair.client.Wheelchair"]
+    "client": [
+      "com.walkerselby.wheelchair.Wheelchair"
+    ]
   }
 }

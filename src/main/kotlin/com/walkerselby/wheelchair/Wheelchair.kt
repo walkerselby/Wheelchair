@@ -1,5 +1,6 @@
-package com.walkerselby.wheelchair.client
+package com.walkerselby.wheelchair
 
+import com.walkerselby.wheelchair.utils.Formatter
 import it.unimi.dsi.fastutil.ints.Int2ObjectMaps
 import net.fabricmc.api.ClientModInitializer
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.literal
@@ -40,6 +41,5 @@ class Wheelchair : ClientModInitializer {
                     )
             )
         })
-
     }
 }

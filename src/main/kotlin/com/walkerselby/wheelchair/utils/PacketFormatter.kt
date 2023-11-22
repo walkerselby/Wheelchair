@@ -1,4 +1,4 @@
-package com.walkerselby.wheelchair.client
+package com.walkerselby.wheelchair.utils
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap
 import net.minecraft.item.ItemStack
@@ -84,10 +84,10 @@ fun interface Formatter<T> {
 
         init {
             putFormatter(
-                java.lang.Integer.TYPE
+                Integer.TYPE
             ) { subject, printer -> printer.emitValue(subject.toString()) }
             putFormatter(
-                java.lang.Integer::class.java
+                Integer::class.java
             ) { subject, printer -> printer.emitValue(subject.toString()) }
             putFormatter(
                 String::class.java
